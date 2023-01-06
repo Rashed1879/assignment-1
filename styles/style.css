@@ -8,6 +8,7 @@
   height: 809px;
   width: 100%;
   background-repeat: no-repeat;
+  margin-bottom: 130px;
 }
 .header-container {
   position: absolute;
@@ -34,4 +35,92 @@
   background-color: orangered;
   border-radius: 5px;
   border: 0;
+}
+/* Main Section Styles */
+/* My failures Section styles */
+.my-failures-section {
+  display: flex;
+  align-items: center;
+  gap: 87px;
+  padding: 0 150px;
+  margin-bottom: 130px;
+}
+.my-failures-content {
+  text-align: left;
+  width: 416px;
+}
+.content-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.content-description {
+  color: #444343;
+  margin-bottom: 16px;
+}
+.content-points li {
+  color: #444343;
+  margin-bottom: 8px;
+  list-style: none;
+}
+.fa-check {
+  color: green;
+}
+/* My Plan Section Styles */
+.my-plan-section {
+  margin: 0 230px;
+  margin-bottom: 130px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan-items {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-item {
+  text-align: center;
+}
+.item-title {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #151414;
+}
+.item-description {
+  font-weight: 500;
+  font-size: 20px;
+  color: #737272;
+}
+/* Motivation Section Styles */
+.motivation-section {
+  height: 300px;
+  background-image: url(../images/watch.png), url(../images/gradient2.png);
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 230px;
+  border-radius: 8px;
+  padding-left: 60px;
+  padding-top: 35px;
+}
+.motivation-text {
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.call-now-btn {
+  font-weight: 600;
+  font-size: 15px;
+  color: #f15b22;
+  padding: 20px 36px;
+  border: 0;
+  border-radius: 5px;
 }
