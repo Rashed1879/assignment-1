@@ -105,7 +105,7 @@
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 0 230px;
+  margin: 0 230px 80px;
   border-radius: 8px;
   padding-left: 60px;
   padding-top: 35px;
@@ -123,4 +123,71 @@
   padding: 20px 36px;
   border: 0;
   border-radius: 5px;
+}
+/* Extra Section Styles */
+.extra-section {
+  background-color: orangered;
+  text-align: center;
+  margin: 0 230px 130px;
+  padding: 40px;
+  border-radius: 8px;
+}
+.extra-section form {
+  text-align: left;
+  padding-left: 40px;
+}
+.sub-text {
+  color: black;
+  margin-bottom: 15px;
+}
+#review {
+  margin-bottom: 15px;
+  background-color: lightcyan;
+  border: 0;
+  border-radius: 8px;
+}
+/* Footer Section Styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  padding: 130px 230px;
+  background: #151414;
+}
+.future .subscribe {
+  text-align: left;
+}
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.future-description {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.future-info {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.future-icons img {
+  margin-right: 16px;
+}
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+#email {
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  height: 40px;
+  width: 250px;
+  background-color: #151414;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 16px;
 }
